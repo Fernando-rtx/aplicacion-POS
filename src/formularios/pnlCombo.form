@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlSuperior">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+          <Color>
+            <RGB red="234" green="244" blue="248"/>
+          </Color>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblLogo">
+          <Properties>
+            <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="pnlCampos">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+              <Color>
+                <RGB red="234" green="244" blue="248"/>
+              </Color>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblIdCombo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Id de combo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtIdCombo">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNuevo">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="255" green="255" blue="255"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nuevo Combo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNuevoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCombo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nombre del combo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCombo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblEncabezado">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Seleccione uno por uno los productos del combo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblBuscar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Buscar por nombre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtBuscar">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtBuscarKeyReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlBotones">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+              <Color>
+                <RGB red="234" green="244" blue="248"/>
+              </Color>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnlimpiar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="200" green="230" blue="235"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="10" green="50" blue="60"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Limpiar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnlimpiarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEliminar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="200" green="230" blue="235"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="10" green="50" blue="60"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eliminar Combo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnActualizar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="255" green="255" blue="255"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Actualizar combo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnActualizarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnGuardar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="255" green="255" blue="255"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Guardar Combo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnVerCombos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="255" green="255" blue="255"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ver Combos"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlComboSelector">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+              <Color>
+                <RGB red="234" green="244" blue="248"/>
+              </Color>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblCombos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seleccione un combo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbCombo">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="200" green="230" blue="235"/>
+                  </Color>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbComboItemStateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlCentro">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+          <Color>
+            <RGB red="234" green="244" blue="248"/>
+          </Color>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlProductos">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+              <Color>
+                <RGB red="234" green="244" blue="248"/>
+              </Color>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblProductos">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="0"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblProductosMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlDetalleSeccion">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+              <Color>
+                <RGB red="234" green="244" blue="248"/>
+              </Color>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblDetalle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="0" green="149" blue="183"/>
+                  </Color>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Su combo tiene los siguientes productos"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="pnlDetalleInferior">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                  <Color>
+                    <RGB red="234" green="244" blue="248"/>
+                  </Color>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblDetalle">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="0" rowCount="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblDetalleMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="pnlTotales">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                      <Color>
+                        <RGB red="234" green="244" blue="248"/>
+                      </Color>
+                    </Property>
+                  </Properties>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblTotal">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="12" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Total en productos $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtTotal">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblPrecio">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="12" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Precio"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtPrecioCombo">
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnEliminarFila">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                          <Color>
+                            <RGB red="200" green="230" blue="235"/>
+                          </Color>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.editors2.ColorEditor">
+                          <Color>
+                            <RGB red="10" green="50" blue="60"/>
+                          </Color>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Eliminar fila"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarFilaActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
