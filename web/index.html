@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Demo web de la aplicación POS Rincón Azteca, adaptada desde la aplicación Java de escritorio por Codex.">
+  <title>Rincón Azteca · Punto de venta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#inicio" aria-label="Rincón Azteca, inicio">
+      <span class="brand-mark">RA</span><span><b>Rincón Azteca</b><small>PUNTO DE VENTA</small></span>
+    </a>
+    <div class="side-label">MENÚ PRINCIPAL</div>
+    <nav id="navigation" aria-label="Navegación principal">
+      <button class="nav-item active" data-view="inicio"><span>⌂</span> Inicio</button>
+      <button class="nav-item" data-view="orden"><span>＋</span> Nueva orden <kbd>N</kbd></button>
+      <button class="nav-item" data-view="ordenes"><span>▤</span> Órdenes</button>
+      <button class="nav-item" data-view="productos"><span>◈</span> Productos</button>
+      <button class="nav-item" data-view="combos"><span>▦</span> Combos</button>
+      <button class="nav-item" data-view="usuarios"><span>♙</span> Usuarios</button>
+    </nav>
+    <div class="sidebar-bottom"><span class="online-dot"></span><span>Demo local activa</span></div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar">
+      <div class="breadcrumb">Rincón Azteca <span>/</span> <b id="crumb">Inicio</b></div>
+      <div class="top-actions"><span class="today" id="today"></span><span class="avatar">F</span><span class="user-name">Fernando<br><small>Administrador</small></span></div>
+    </header>
+    <div class="content" id="app"></div>
+    <footer class="credit">Adaptación web de la aplicación Java de escritorio <span>·</span> Versión web hecha por <b>Codex</b></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
